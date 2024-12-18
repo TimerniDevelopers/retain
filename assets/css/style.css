@@ -654,8 +654,16 @@ button:not(:disabled) {
 .sticky.menu-area .logo img {
 max-width: 100px;
 }
+.logo-one{
+  display: none;
+}
 
-
+.sticky.menu-area .logo .logo-one {
+   display: block;
+  }
+  .sticky.menu-area .logo .logo-two {
+    display: none;
+   }
 @keyframes sticky {
   0% {
     transform: translateY(-100%);
