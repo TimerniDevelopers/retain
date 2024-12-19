@@ -745,67 +745,7 @@ select {
 
 /*===== All Preloader Style =====*/
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 999999;
-}
 
-#preloader .preloader {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  padding: 0px;
-  text-align: left;
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -25px;
-  margin-top: -25px;
-}
-
-#preloader .preloader span {
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background-color: #F96500;
-  -webkit-animation: preloader 1.3s linear infinite;
-  animation: preloader 1.3s linear infinite;
-}
-
-#preloader .preloader span:last-child {
-  animation-delay: -0.8s;
-  -webkit-animation-delay: -0.8s;
-}
-
-@keyframes preloader {
-  0% {
-      transform: scale(0, 0);
-      opacity: 0.5;
-  }
-  100% {
-      transform: scale(1, 1);
-      opacity: 0;
-  }
-}
-
-@-webkit-keyframes preloader {
-  0% {
-      -webkit-transform: scale(0, 0);
-      opacity: 0.5;
-  }
-  100% {
-      -webkit-transform: scale(1, 1);
-      opacity: 0;
-  }
-}
 
 
 .banner-section {
@@ -1766,4 +1706,78 @@ opacity: 1;
 }
 .f-logo img{
   max-width: 200px;
+}
+
+
+#preloader {
+  background-color: #fff;
+  height: 100%;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#preloader .loader .loader-container {
+  border: 3px solid #e6eeff;
+}
+
+#preloader .loader .loader-container,
+#preloader .loader .loader-container:before {
+  border-radius: 50%;
+  height: 100px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100px;
+}
+
+#preloader .loader .loader-container:before {
+  animation: loaderspin .8s ease-in-out infinite;
+  -webkit-animation: loaderspin .8s ease-in-out infinite;
+  border-top: 3px solid #2f047a;
+  content: "";
+  display: block;
+}
+
+#preloader .loader .loader-icon {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+}
+
+#preloader .loader .loader-icon img {
+  animation: loaderpulse .5s infinite alternate;
+  width: 40px;
+  -webkit-animation: loaderpulse .5s infinite alternate;
+}
+
+@keyframes loaderspin {
+  0% {
+      transform: translate(-50%,-50%) rotate(0deg)
+  }
+
+  to {
+      transform: translate(-50%,-50%) rotate(1turn)
+  }
+}
+
+@keyframes loaderpulse {
+  0% {
+      transform: scale(1)
+  }
+
+  to {
+      transform: scale(1.2)
+  }
+}
+
+.address-details a img {
+  width: 25px;
+  height: 25px;
 }

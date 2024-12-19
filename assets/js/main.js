@@ -49,7 +49,10 @@
     });
 
 
-  
+    $(window).on('load', function(event) {
+        // $('#preloader').delay(100).fadeOut(100);
+        $("#preloader").fadeOut(0);
+    });
 
 
 
@@ -105,10 +108,10 @@
 
 
     // PreLoader Js
-    $(window).on('load', function(event) {
-        $('#preloader').delay(500).fadeOut(500);
-    });
-
+  
+    // e(window).on("load", function() {
+    //     e("#preloader").fadeOut(0);
+    // });
 
 	//Banner Carousel
 	$('.banner-carousel').owlCarousel({
