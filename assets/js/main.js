@@ -138,6 +138,25 @@
         }
     });
    
+	$('.blog-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+
+        navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="fa fa-long-arrow-alt-right"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1024: {
+                items: 1
+            },
+        }
+    });
+   
 	//Accordion Box
 	if ($('.accordion-box').length) {
 		$(".accordion-box").on('click', '.acc-btn', function () {

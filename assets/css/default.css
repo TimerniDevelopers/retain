@@ -1140,6 +1140,12 @@ li {
     z-index: 0;
     color: var( --theme-color-light);
     background: var(--theme-color2);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .theme-btn.hover-light:before {
