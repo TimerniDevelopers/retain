@@ -2393,6 +2393,9 @@ content .date i {
   color: #bbb;
   font-weight: 700;
 }
+.recent-post ul li{
+  margin-bottom: 15px;
+}
 .widget-title{
   margin-bottom: 15px;
 }
@@ -2411,6 +2414,23 @@ content .date i {
   display: inline-block;
   margin-right: 4px;
   
+}
+.post-form .input-group-text {
+    border-left: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0rem;
+}
+.post-form .input-group-text i{
+  color: #191D88;
+}
+.post-form .form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
 }
 .tag-post li a{
   color: #fff;
