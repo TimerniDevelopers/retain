@@ -1710,4 +1710,168 @@ Page Title
 .smoth-scroll:hover i{
     border: 1px solid  var(--theme-color1);
     color: var(--theme-color1);
-} */
+} 
+
+
+
+.default-blog-post{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+ .default-blog-post .post-meta{
+	position:relative;
+}
+
+.default-blog-post .post-meta li{
+	position:relative;
+	display:inline-block;
+	color:#1c1c1c;
+	padding-left:20px;
+}
+
+.default-blog-post .post-meta li a{
+	color:#1c1c1c;
+	display:block;
+	line-height:24px;	
+}
+
+.default-blog-post .post-meta li a:hover{
+	color:#f7542b;	
+}
+
+.default-blog-post .post-meta li .icon{
+	font-size:14px;
+	color:#f7542b;
+	line-height:24px;
+	padding-right:5px;	
+}
+
+
+
+.login-box-two .theme-btn {
+    padding: 12px 20px;
+        height: auto;
+     
+ }
+ .login-box-two .sec-btn-two:before {
+     content: '';
+     border-radius: 00px;
+     -webkit-border-radius: 00px;
+     -moz-border-radius: 00px;
+     -ms-border-radius: 00px;
+     -o-border-radius: 00px;
+ }
+ .login-register-title h2 {
+     font-weight: 700;
+     font-size: 32px;
+     margin: 0 0 15px;
+ }
+ .login-register-title p {
+     font-weight: 400;
+     line-height: 1.6;
+     color: #999;
+ }
+ .login-register-content .login-register-style form .login-register-input select,
+ .login-register-content .login-register-style form .login-register-input input {
+     color: #495057;
+     width: 100%;
+     height: 45px;
+     background-color: transparent;
+     border: 1px solid #e6e6e6;
+     padding: 4px 15px 0;
+     font-size: 15px;
+ }
+ .login-register-content .login-register-style form .login-register-input {
+     position: relative;
+     margin-bottom: 10px;
+ }
+ 
+ .login-register-content .login-register-style form .forgot a {
+     font-size: 15px;
+ }
+ .signup-link a{
+ 
+     color: #4070f4 !important;
+     cursor: pointer;
+     transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+ 
+ .bg{
+     background-color: #F96500 !important; 
+ }
+ .color-1{
+    color: #F96500 !important; 
+ }
+ .modal-btn-two {
+     font-family: 'Roboto', sans-serif;
+     font-size: 15px;
+     line-height: 24px;
+     font-weight: 500;
+     text-align: center;
+     text-transform: uppercase;
+     color: #ffffff !important;
+     background-color: #F96500 !important; 
+     display: inline-block;
+     overflow: hidden;
+     padding: 10px 20px;
+     border: none;
+     position: relative;
+     z-index: 0;
+     transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+ 
+ }
+ 
+ .login-register-content .login-register-style form .btn-style-3 button:hover {
+     background-color: #0125bb;
+ }
+ .login-register-content .login-register-style form .btn-style-3 button {
+     font-size: 16px;
+     border-radius: 3px;
+     font-weight: 400;
+     color: #fff;
+     background-color: #F96500;
+     border: none;
+     line-height: 1;
+     width: 100%;
+     text-align: center;
+     padding: 19px 10px 15px;
+     text-transform: uppercase;
+ }
+ .login-register-title{
+    text-align: center;
+}
+ .login-register-title .social-icon{
+   justify-content: center;
+}
+
+
+div#login {
+    z-index: 11111;
+}
+
+.social-container {
+    margin: 15px 0 10px;
+}
+
+.social-container a {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    color: #000;
+  
+}
+.login-register-content .social-icon a{
+    color: #000;
+}
+.login-register-content .social-icon a:hover {
+    opacity: 1;
+    color: #fff;
+}

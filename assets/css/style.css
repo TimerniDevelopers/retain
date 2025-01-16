@@ -353,7 +353,7 @@ max-width: 145px;
 }
 
 .main-menu ul li .active {
-  color: #F96500;
+  color: #F96500 !important;
 }
 
 .main-menu ul li .sub-menu {
@@ -2340,10 +2340,7 @@ content .date i {
 .blog-carousel .owl-nav .owl-prev {
   left: 15px;
 }
-.qodef-post-info-category{
-  padding-top: 35px;
-  padding-bottom: 10px;
-}
+
 .qodef-post-text-main .qodef-post-title {
   font-size: 36px;
   line-height: 1.25em;
